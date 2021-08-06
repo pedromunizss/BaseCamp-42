@@ -24,10 +24,3 @@ void    ft_putnbr(int   nb)
         ft_putnbr(nb);
     }
 }
-
-int main(void)
-{
-    int a = -128;
-    ft_putnbr(a);
-    return 0;
-}
