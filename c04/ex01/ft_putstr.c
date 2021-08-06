@@ -12,3 +12,11 @@ void	ft_putstr(char	*str)
 		i++;
 	}
 }
+
+int main()
+{
+    char a[] = "asdf";
+    ft_putstr(a);
+
+    return (0);
+}
